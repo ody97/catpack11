@@ -1,7 +1,7 @@
-FROM ODY-IQ/catuserbot:alpine
+FROM ody97/CatArabic:alpine
 
 #clonning repo 
-RUN git clone https://github.com/ODY-IQ/catuserbot.git /root/userbot
+RUN git clone https://github.com/ody97/CatArabic.git /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
